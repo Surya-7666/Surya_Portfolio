@@ -122,7 +122,7 @@ const Hero = () => {
 
                                 <div className="btn-gsap">
                                     <a
-                                        href="/Surya_Resume.pdf"
+                                        href="/Surya_Resume1.pdf"
                                         download={true}
                                     >
                                         <ButtonOutline
