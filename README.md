@@ -206,18 +206,6 @@ Full Stack Developer
 
 🐙 GitHub: https://github.com/Surya-7666
 
----
-
-# 🚀 Future Improvements
-
-* AI-powered portfolio assistant
-* Dark mode
-* Blog section
-* Visitor analytics
-* Internationalization (i18n)
-* Accessibility enhancements
-* SEO improvements
-* Performance optimization
 
 ---
 
