@@ -1,156 +1,251 @@
-# Portfolio Website
+# 🌿 Surya Portfolio
 
-Modern and interactive frontend portfolio built with React, TypeScript, Tailwind CSS, GSAP, and Lenis smooth scrolling. Designed with reusable architecture, responsive layouts, optimized animations, and performance-focused development practices.
+<div align="center">
 
-## Features
+### Modern • Responsive • Interactive Portfolio Website
 
-- Type safety
-- Responsive modern UI
-- React Router Dom
-- Smooth scrolling with Lenis
-- GSAP scroll-triggered animations
-- Reusable animation utilities
-- TypeScript-based scalable architecture
-- Clean component structure
-- Optimized performance and smooth UX
-- Mobile-friendly design
+<img src="./public/portfolio.png" alt="Portfolio Banner" width="100%"/>
 
-## Tech Stack
+<br/>
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live-Portfolio-5B8C3B?style=for-the-badge)](https://surya-portfolio-swart-three.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Surya--7666-black?style=for-the-badge\&logo=github)](https://github.com/Surya-7666)
+[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge\&logo=react)]
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)]
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite)]
+
+### 🔗 Live Website
+
+**https://surya-portfolio-swart-three.vercel.app/**
+
+</div>
+
+---
+
+# 📖 About
+
+This repository contains the source code for my personal developer portfolio.
+
+The portfolio is designed to showcase my professional profile, technical skills, development journey, certifications, and experience through a modern, responsive, and interactive user interface.
+
+The primary goal of this project is to provide recruiters, developers, and visitors with a seamless overview of my work while demonstrating clean code practices, component-based architecture, smooth animations, and responsive web design.
+
+---
+
+# ✨ Features
+
+* 🌿 Modern Minimal UI
+* 📱 Fully Responsive Design
+* ⚡ Optimized Performance
+* 🎨 Smooth GSAP Animations
+* 🧩 Component-Based Architecture
+* 🖥️ Mobile First Design
+* 📂 Dedicated Project Showcase
+* 📄 Resume Download
+* 📬 Contact Form with EmailJS
+* 🎯 Easy Navigation
+* ♻️ Reusable Components
+* 🚀 Fast Loading Experience
+
+---
+
+# 🖥️ Website Sections
+
+* 🏠 Home
+* 👨 About Me
+* 💻 Skills
+* 🚀 Projects
+* 📞 Contact
+
+---
+
+# 🛠️ Tech Stack
 
 ### Frontend
-- React.js
-- TypeScript
-- Tailwind CSS
-- react hot toast
-- react icons
-- emailjs
 
-### Animation & UX
-- GSAP
-- ScrollTrigger
-- Lenis Smooth Scrolling
+* React.js
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router DOM
+* GSAP
 
-### Build & Tooling
-- Vite
-- ESLint
-- npm
+### Services
 
-### Deployment
-- Netlify
+* EmailJS
 
-## Project Structure
-```bash
-portfolio/
-├── public/
-│   ├── assets/
-│   └── ANUGRAH_RAKHOLIYA.pdf
+### Development Tools
+
+* Git
+* GitHub
+* VS Code
+* npm
+
+---
+
+# 📂 Folder Structure
+
+```text
+src/
 │
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   │   ├── hero/
-│   │   │   ├── projects/
-│   │   │   ├── skills/
-│   │   │   └── icons/
-│   │   ├── videos/
-│   │   └── documents/
-│   │
-│   ├── components/
-│   │   ├── common/
-│   │   ├── layout/
-│   │   ├── sections/
-│   │   ├── cards/
-│   │   └── transitions/
-│   │
-│   ├── animations/
-│   │
-│   ├── hooks/
-│   │
-│   ├── lib/
-│   │
-│   ├── data/
-│   │
-│   ├── types/
-│   │
-│   ├── utils/
-│   │
-│   ├── pages/
-│   │
-│   ├── routes/
-│   │
-│   ├── context/
-│   │
-│   ├── style/
-│   │
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
+├── animations/
+├── assets/
+├── components/
+│   ├── about/
+│   ├── common/
+│   ├── contact/
+│   ├── home/
+│   ├── project/
+│   └── skills/
 │
-├── .gitignore
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-└── README.md
+├── context/
+├── data/
+├── hooks/
+├── layouts/
+├── pages/
+├── routes/
+├── styles/
+├── types/
+└── main.tsx
 ```
 
-## Installation
+---
 
-Clone the repository:
+# 🚀 Getting Started
+
+Clone the repository
 
 ```bash
-git clone https://github.com/Anugrah2303/React_Portfolio
+git clone https://github.com/Surya-7666/React_Portfolio.git
 ```
 
-Navigate to the project folder:
+Navigate into the project
 
 ```bash
-cd portfolio
+cd React_Portfolio
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Run development server:
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+Build for production
 
 ```bash
 npm run build
 ```
 
-Preview production build:
+Preview production build
 
 ```bash
 npm run preview
 ```
 
-## Performance Optimizations
+---
 
-- GSAP animation cleanup
-- ScrollTrigger lifecycle handling
-- Lenis cleanup on unmount
-- Reusable animation abstraction
-- Optimized scroll performance
-- Lightweight component architecture
+# 🔐 Environment Variables
 
-## Deployment
+Create a `.env` file in the project root.
 
-Deploy easily on:
+```env
+VITE_EMAIL_SERVICE_ID=your_service_id
 
-- Vercel
-- Netlify
-- Cloudflare Pages
-- GitHub Pages
+VITE_EMAIL_TEMPLATE_ID=your_template_id
 
-## Author
+VITE_EMAIL_PUBLIC_KEY=your_public_key
+```
 
-### Anugrah Rakholiya
+> Never commit your `.env` file to GitHub.
 
-Frontend Developer focused on building modern, performant, and scalable web experiences using React ecosystem technologies.
+---
+
+# 📸 Preview
+
+## Desktop View
+
+*Add a desktop screenshot here.*
+
+---
+
+## Tablet View
+
+*Add a tablet screenshot here.*
+
+---
+
+## Mobile View
+
+*Add a mobile screenshot here.*
+
+---
+
+# 🎯 Goals of this Portfolio
+
+* Showcase my professional profile
+* Demonstrate frontend development skills
+* Present my technical stack
+* Display projects in an organized way
+* Provide recruiters with a quick overview
+* Maintain a clean and responsive user experience
+* Continuously improve as I learn new technologies
+
+---
+
+# 🌐 Live Demo
+
+### Portfolio
+
+**https://surya-portfolio-swart-three.vercel.app/**
+
+---
+
+# 👨‍💻 Author
+
+**Surya Perumal Jeyapandi**
+
+Full Stack Developer
+
+📧 [surya1237890@gmail.com](mailto:surya1237890@gmail.com)
+
+💼 LinkedIn: https://www.linkedin.com/in/surya-perumal-jeyapandi
+
+🐙 GitHub: https://github.com/Surya-7666
+
+---
+
+# 🚀 Future Improvements
+
+* AI-powered portfolio assistant
+* Dark mode
+* Blog section
+* Visitor analytics
+* Internationalization (i18n)
+* Accessibility enhancements
+* SEO improvements
+* Performance optimization
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+Your support motivates me to continue building and sharing high-quality projects.
+
+---
+
+<div align="center">
+
+### Thank you for visiting my repository!
+
+Built with ❤️ using React, TypeScript, and Tailwind CSS.
+
+</div>
