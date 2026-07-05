@@ -1,18 +1,5 @@
-# 🌿 Surya Portfolio
+#  Surya Portfolio
 
-<div align="center">
-
-### Modern • Responsive • Interactive Portfolio Website
-
-<img src="./public/portfolio.png" alt="Portfolio Banner" width="100%"/>
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live-Portfolio-5B8C3B?style=for-the-badge)](https://surya-portfolio-swart-three.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Surya--7666-black?style=for-the-badge\&logo=github)](https://github.com/Surya-7666)
-[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge\&logo=react)]
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)]
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite)]
 
 ### 🔗 Live Website
 
