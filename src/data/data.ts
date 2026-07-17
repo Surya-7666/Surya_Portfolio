@@ -3,6 +3,8 @@ import type { LinkType, navLinksData, previewDataInterface, ProjectCardProps, ve
 import { IoMdMail } from "react-icons/io"
 import { SiTailwindcss, SiJavascript, SiTypescript, SiGsap, SiMongodb,  SiCplusplus, SiExpress, SiGit, SiGithub, SiNpm, SiVite, SiEslint, SiTwilio, SiPostman, SiNodemon, SiCloudinary, SiAxios,  SiJsonwebtokens, SiReactrouter, SiRedux, SiVercel,  SiGooglechrome, SiNextdotjs, SiReact,  SiRender, SiGreensock } from "react-icons/si"
 import Nexora from "../assets/images/Nexora.png"
+import React from "../assets/images/React.png"
+
 import Ai from "../assets/images/ai.png"
 import { HiAcademicCap } from "react-icons/hi"
 import { PiCertificateFill } from "react-icons/pi"
@@ -428,6 +430,146 @@ export const allSkills: AllSkillData[] = [
 ];
 
 export const projectsData: ProjectCardProps[] = [
+    {
+    title: "React Virtual UI",
+    slug: "React Virtual UI",
+    github: "https://github.com/Surya-7666/React-Virtual-UI",
+    live: "https://react-virtual-ui-main.onrender.com",
+    description:
+        "An AI-powered React UI component library that enables developers to generate, preview, publish, and reuse modern React components instantly. It features AI component generation, live preview, Google Authentication, npm package publishing, Razorpay integration, and an intuitive developer experience.",
+    status: "LIVE",
+    image: React,
+
+    techStack: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Authentication",
+        "JWT Authentication",
+        "OpenRouter AI",
+        "Razorpay",
+        "Tailwind CSS",
+        "npm",
+        "Vite"
+    ],
+
+    productDetail: {
+        description: [
+            "React Virtual UI is an AI-powered React component library designed to help developers build modern user interfaces faster by generating production-ready React components using artificial intelligence.",
+            "The platform provides an interactive live preview, one-click JSX copy, reusable component management, secure authentication, and seamless component publishing for an efficient developer workflow.",
+            "It integrates OpenRouter AI to generate React components from natural language prompts, Firebase Google Authentication for secure sign-in, Razorpay for purchasing credits, and MongoDB for storing users and generated components.",
+            "The application follows a modern full-stack architecture using React, Node.js, Express.js, MongoDB, and REST APIs to ensure scalability, maintainability, and high performance.",
+            "The primary objective of the project is to simplify UI development by allowing developers to instantly generate, preview, customize, publish, and integrate reusable React components into their own projects."
+        ],
+
+        techStack: [
+            {
+                title: "Frontend",
+                data: [
+                    "React.js",
+                    "Vite",
+                    "Tailwind CSS",
+                    "Redux Toolkit",
+                    "Axios",
+                    "React Live",
+                    "Firebase Authentication"
+                ]
+            },
+            {
+                title: "Backend",
+                data: [
+                    "Node.js",
+                    "Express.js",
+                    "JWT Authentication",
+                    "OpenRouter AI",
+                    "REST API",
+                    "Razorpay"
+                ]
+            },
+            {
+                title: "Database",
+                data: [
+                    "MongoDB",
+                    "Mongoose"
+                ]
+            },
+            {
+                title: "Tools",
+                data: [
+                    "Git",
+                    "GitHub",
+                    "Render",
+                    "Postman",
+                    "VS Code",
+                    "npm"
+                ]
+            }
+        ],
+
+        detail: [
+            {
+                title: "Key Features",
+                data: [
+                    {
+                        title: "AI-Powered Component Generation",
+                        description: "Generate production-ready React UI components using OpenRouter AI by simply describing the desired component in natural language."
+                    },
+                    {
+                        title: "Live Component Preview",
+                        description: "Instantly preview generated React components inside the browser before copying or publishing them."
+                    },
+                    {
+                        title: "One-Click JSX Copy",
+                        description: "Copy clean and reusable JSX code with a single click for immediate integration into any React project."
+                    },
+                    {
+                        title: "Google Authentication",
+                        description: "Implemented secure Google Sign-In using Firebase Authentication along with JWT-based session management."
+                    },
+                    {
+                        title: "Component Publishing",
+                        description: "Allows administrators to publish reusable React components as npm packages, making them easily installable in external projects."
+                    },
+                    {
+                        title: "Credit-Based AI Usage",
+                        description: "Integrated Razorpay payment gateway to allow users to purchase credits for generating AI-powered React components."
+                    },
+                    {
+                        title: "Responsive Developer Dashboard",
+                        description: "Designed a modern responsive interface using React and Tailwind CSS for seamless usage across desktop and mobile devices."
+                    }
+                ]
+            },
+
+            {
+                title: "Challenges",
+                data: [
+                    {
+                        title: "AI Response Handling",
+                        description: "Managing AI-generated JSX responses, validating output, and ensuring clean React code required careful prompt engineering and response processing."
+                    },
+                    {
+                        title: "Live JSX Rendering",
+                        description: "Building a secure live preview system capable of rendering dynamically generated React components without breaking the application."
+                    },
+                    {
+                        title: "Authentication Across Deployment",
+                        description: "Resolved Firebase Authentication, JWT cookie management, CORS, and deployment-related issues between frontend and backend services."
+                    },
+                    {
+                        title: "Reusable Component Publishing",
+                        description: "Designed an automated workflow for publishing reusable React components as npm packages while maintaining proper version management."
+                    },
+                    {
+                        title: "Payment Integration",
+                        description: "Integrated Razorpay with secure backend payment verification and credit management for AI component generation."
+                    }
+                ]
+            }
+        ]
+    }
+},
     {
         title: "Nexora",
         slug: "Nexora AI",
