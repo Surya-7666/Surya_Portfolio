@@ -3,7 +3,7 @@
 
 ### 🔗 Live Website
 
-**https://surya-portfolio-swart-three.vercel.app/**
+**https://www.suryasde.site/**
 
 </div>
 
