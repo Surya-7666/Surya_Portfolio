@@ -67,8 +67,8 @@ export const links: LinkType[] = [{
     icon: FaLinkedin,
     link: "https://www.linkedin.com/in/surya-pj/"
 }, {
-    icon: IoMdMail,
-    link: "mailto:surya1237890@gmail.com"
+  icon: IoMdMail,
+  link: "https://mail.google.com/mail/?view=cm&fs=1&to=surya1237890@gmail.com"
 }, {
     icon: FaWhatsapp,
     link: "https://wa.me/9123517506"
