@@ -4,6 +4,8 @@ import { IoMdMail } from "react-icons/io"
 import { SiTailwindcss, SiJavascript, SiTypescript, SiGsap, SiMongodb,  SiCplusplus, SiExpress, SiGit, SiGithub, SiNpm, SiVite, SiEslint, SiTwilio, SiPostman, SiNodemon, SiCloudinary, SiAxios,  SiJsonwebtokens, SiReactrouter, SiRedux, SiVercel,  SiGooglechrome, SiNextdotjs, SiReact,  SiRender, SiGreensock } from "react-icons/si"
 import Nexora from "../assets/images/Nexora.png"
 import React from "../assets/images/React.png"
+import SRBilling from "../assets/images/SRBilling.png"
+import Swingo from "../assets/images/Swingo.png";
 
 import Ai from "../assets/images/ai.png"
 import { HiAcademicCap } from "react-icons/hi"
@@ -67,8 +69,8 @@ export const links: LinkType[] = [{
     icon: FaLinkedin,
     link: "https://www.linkedin.com/in/surya-pj/"
 }, {
-  icon: IoMdMail,
-  link: "https://mail.google.com/mail/?view=cm&fs=1&to=surya1237890@gmail.com"
+    icon: IoMdMail,
+    link: "mailto:surya1237890@gmail.com"
 }, {
     icon: FaWhatsapp,
     link: "https://wa.me/9123517506"
@@ -430,6 +432,379 @@ export const allSkills: AllSkillData[] = [
 ];
 
 export const projectsData: ProjectCardProps[] = [
+
+    {
+    title: "Swingo",
+    slug: "Swingo",
+    github: "https://github.com/Surya-7666/Swingo",
+    live: "https://swingo-eta.vercel.app/",
+    description:
+        "A physics-driven Windows desktop companion that lets users interact with a hanging virtual charm through realistic rope movement, customizable charms, gesture-based actions, and a transparent always-on-top desktop experience.",
+    status: "LIVE",
+    image: Swingo,
+
+    techStack: [
+        "React.js",
+        "JavaScript",
+        "Electron.js",
+        "Vite",
+        "Tailwind CSS",
+        "HTML5 Canvas",
+        "Electron IPC",
+        "Windows API"
+    ],
+
+    productDetail: {
+        description: [
+            "Swingo is an interactive Windows desktop companion designed around a hanging virtual charm that users can pull, drag, and swing directly on their desktop.",
+            "The application combines a React-based settings interface with an Electron desktop companion window to create a lightweight and interactive desktop experience.",
+            "Users can personalize their companion by selecting different charms, uploading custom charm images, choosing rope styles, and configuring interaction settings.",
+            "Swingo uses a custom JavaScript physics system to simulate gravity, rope movement, damping, momentum, and charm interaction for a dynamic swinging experience.",
+            "The application also integrates Windows system actions that can be triggered through configured charm interactions.",
+            "The project focuses on desktop application development, physics-based animation, transparent Electron windows, native Windows integration, and customizable user experiences."
+        ],
+
+        techStack: [
+            {
+                title: "Frontend",
+                data: [
+                    "React.js",
+                    "JavaScript",
+                    "Tailwind CSS",
+                    "Vite",
+                    "HTML5 Canvas",
+                    "Lucide React"
+                ]
+            },
+
+            {
+                title: "Desktop",
+                data: [
+                    "Electron.js",
+                    "Electron IPC",
+                    "BrowserWindow",
+                    "Transparent Window",
+                    "Always-On-Top Window",
+                    "Windows"
+                ]
+            },
+
+            {
+                title: "Physics & Animation",
+                data: [
+                    "JavaScript Physics",
+                    "Verlet Integration",
+                    "Rope Physics",
+                    "Gravity",
+                    "Damping",
+                    "Canvas 2D Rendering"
+                ]
+            },
+
+            {
+                title: "Customization",
+                data: [
+                    "Charm Collection",
+                    "Custom Image Upload",
+                    "Rope Styles",
+                    "Live Preview",
+                    "Appearance Settings"
+                ]
+            },
+
+            {
+                title: "Tools",
+                data: [
+                    "Git",
+                    "GitHub",
+                    "VS Code",
+                    "NPM",
+                    "Electron Builder",
+                    "Windows AppX Packaging"
+                ]
+            }
+        ],
+
+        detail: [
+            {
+                title: "Key Features",
+                data: [
+                    {
+                        title: "Interactive Desktop Companion",
+                        description:
+                            "Created a transparent and always-on-top desktop companion that displays a hanging virtual charm and allows users to interact with it directly on the Windows desktop."
+                    },
+
+                    {
+                        title: "Physics-Driven Charm",
+                        description:
+                            "Implemented custom JavaScript physics to simulate gravity, movement, damping, momentum, and rope behavior so the charm responds naturally to user interaction."
+                    },
+
+                    {
+                        title: "Custom Charm Collection",
+                        description:
+                            "Built a charm collection system that allows users to select different predefined charms and personalize their desktop companion."
+                    },
+
+                    {
+                        title: "Custom Charm Upload",
+                        description:
+                            "Added support for uploading custom charm images so users can use their own characters, memes, emojis, symbols, and other artwork."
+                    },
+
+                    {
+                        title: "Rope Style Customization",
+                        description:
+                            "Implemented multiple rope and thread styles that allow users to customize the visual appearance of the hanging companion."
+                    },
+
+                    {
+                        title: "Gesture-Based Windows Actions",
+                        description:
+                            "Integrated configurable Windows actions that can be triggered through interactions with the hanging charm."
+                    },
+
+                    {
+                        title: "Live Settings Synchronization",
+                        description:
+                            "Implemented Electron IPC communication to synchronize charm appearance and configuration changes between the React settings interface and the desktop companion."
+                    },
+
+                    {
+                        title: "Transparent Desktop Overlay",
+                        description:
+                            "Created a frameless transparent Electron window that allows the charm and rope to appear naturally over the Windows desktop without displaying a traditional application window."
+                    },
+
+                    {
+                        title: "Charm Visibility Control",
+                        description:
+                            "Added a simple settings control that allows users to show or hide the Swingo desktop companion whenever required."
+                    },
+
+                    {
+                        title: "Windows Application Packaging",
+                        description:
+                            "Configured Electron Builder to package Swingo as Windows desktop distributions including installer, portable, and AppX packages."
+                    }
+                ]
+            },
+
+            {
+                title: "Challenges",
+                data: [
+                    {
+                        title: "Realistic Rope Physics",
+                        description:
+                            "Developing natural rope movement required handling gravity, rope constraints, damping, drag movement, release momentum, and continuous physics updates."
+                    },
+
+                    {
+                        title: "Transparent Electron Window",
+                        description:
+                            "Creating a transparent desktop window while maintaining reliable rendering and interaction behavior required careful Electron BrowserWindow configuration."
+                    },
+
+                    {
+                        title: "Mouse Interaction & Click-Through",
+                        description:
+                            "Managing mouse interaction inside a transparent overlay while allowing normal interaction with other desktop applications required dynamic mouse event handling."
+                    },
+
+                    {
+                        title: "Multi-Window Communication",
+                        description:
+                            "Synchronizing settings between the main React interface and the separate desktop companion required communication between Electron processes using IPC."
+                    },
+
+                    {
+                        title: "Smooth Canvas Rendering",
+                        description:
+                            "Maintaining smooth rope and charm animation required efficient Canvas rendering and continuous physics updates without unnecessarily affecting desktop performance."
+                    },
+
+                    {
+                        title: "Windows System Integration",
+                        description:
+                            "Integrating desktop interactions and Windows shortcut actions required coordination between the Electron main process, renderer process, and Windows environment."
+                    },
+
+                    {
+                        title: "Microsoft Store Packaging",
+                        description:
+                            "Preparing Swingo for Microsoft Store distribution required configuring Electron Builder, Windows AppX packaging, application identity, icons, and package assets."
+                    }
+                ]
+            }
+        ]
+    }
+},
+     {
+        title: "SR Billing",
+        slug: "SR Billing",
+        github: "https://github.com/Surya-7666/sr-billing",
+        live: "https://billzy-e1xp.onrender.com/",
+        description:
+            "A Windows desktop billing application designed for small businesses to manage products, billing, receipts, sales history, reports, and shop settings through a simple offline-first system.",
+        status: "LIVE",
+        image: SRBilling,
+
+        techStack: [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Electron.js",
+            "SQLite",
+            "JWT Authentication",
+            "Tailwind CSS",
+            "Vite"
+        ],
+
+        productDetail: {
+            description: [
+                "SR Billing is a Windows desktop billing application built to simplify daily billing operations for small shops and businesses.",
+                "The application combines a React frontend with a Node.js and Express backend, packaged as a Windows desktop application using Electron.js.",
+                "It uses a local SQLite database so the application can continue working offline after installation, without depending on an internet connection for core billing operations.",
+                "The system supports role-based access with Admin and Staff users, allowing shop owners to manage products, staff, billing history, reports, and shop settings.",
+                "The primary objective of SR Billing is to provide a simple, reliable, and affordable billing solution for small businesses without requiring a monthly subscription."
+            ],
+
+            techStack: [
+                {
+                    title: "Frontend",
+                    data: [
+                        "React.js",
+                        "Tailwind CSS",
+                        "Vite",
+                        "Responsive UI"
+                    ]
+                },
+
+                {
+                    title: "Backend",
+                    data: [
+                        "Node.js",
+                        "Express.js",
+                        "REST API",
+                        "JWT Authentication"
+                    ]
+                },
+
+                {
+                    title: "Database",
+                    data: [
+                        "SQLite",
+                        "better-sqlite3"
+                    ]
+                },
+
+                {
+                    title: "Desktop",
+                    data: [
+                        "Electron.js",
+                        "Windows"
+                    ]
+                },
+
+                {
+                    title: "Tools",
+                    data: [
+                        "Git",
+                        "GitHub",
+                        "VS Code",
+                        "Postman",
+                        "NPM"
+                    ]
+                }
+            ],
+
+            detail: [
+                {
+                    title: "Key Features",
+                    data: [
+                        {
+                            title: "Offline Billing",
+                            description:
+                                "Built as a Windows desktop application with a local SQLite database, allowing core billing operations to work without an internet connection."
+                        },
+                        {
+                            title: "Product Management",
+                            description:
+                                "Allows administrators to create, update, and manage products used during the billing process."
+                        },
+                        {
+                            title: "Fast Billing Workflow",
+                            description:
+                                "Designed a simple billing interface for quickly selecting products, entering customer details, applying discounts and taxes, and completing payments."
+                        },
+                        {
+                            title: "Receipt Generation",
+                            description:
+                                "Provides receipt preview, printing, and PDF export functionality with configurable shop information."
+                        },
+                        {
+                            title: "Sales & Billing History",
+                            description:
+                                "Maintains billing records and provides access to previous transactions for business tracking."
+                        },
+                        {
+                            title: "Business Reports",
+                            description:
+                                "Provides sales and business reports to help shop owners understand their billing activity."
+                        },
+                        {
+                            title: "Role-Based Access",
+                            description:
+                                "Implemented separate Admin and Staff access levels so shop owners can control billing and management operations."
+                        },
+                        {
+                            title: "Payment Methods",
+                            description:
+                                "Supports Cash, UPI, and Card payment methods during billing."
+                        },
+                        {
+                            title: "Shop Customization",
+                            description:
+                                "Allows shop owners to configure shop name, tagline, contact details, address, GST information, and receipt branding."
+                        }
+                    ]
+                },
+
+                {
+                    title: "Challenges",
+                    data: [
+                        {
+                            title: "Electron Application Packaging",
+                            description:
+                                "Packaging the React and Node.js application into a reliable Windows desktop executable required careful handling of Electron processes, backend startup, and production assets."
+                        },
+                        {
+                            title: "Offline Database Architecture",
+                            description:
+                                "Designed a local SQLite database architecture so each shop can maintain its billing data independently without relying on a remote database."
+                        },
+                        {
+                            title: "Frontend-Backend Communication",
+                            description:
+                                "Integrated the React frontend with the local Express backend while maintaining reliable API communication inside the Electron environment."
+                        },
+                        {
+                            title: "Role-Based Security",
+                            description:
+                                "Implemented JWT authentication and role-based middleware to separate Admin and Staff functionality."
+                        },
+                        {
+                            title: "Receipt & Printing Workflow",
+                            description:
+                                "Built a complete workflow from billing and payment confirmation to receipt preview, PDF export, and printing."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+
     {
     title: "React Virtual UI",
     slug: "React Virtual UI",
