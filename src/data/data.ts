@@ -436,7 +436,7 @@ export const projectsData: ProjectCardProps[] = [
     {
     title: "Swingo",
     slug: "Swingo",
-    github: "https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=US&ocid=pdpshare",
+    github: "https://github.com/Surya-7666/Swingo",
     live: "https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=US&ocid=pdpshare",
     description:
         "A physics-driven Windows desktop companion that lets users interact with a hanging virtual charm through realistic rope movement, customizable charms, gesture-based actions, and a transparent always-on-top desktop experience.",
